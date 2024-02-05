@@ -7,16 +7,16 @@ export default  function About() {
         alt="Profile Picture"
         className="mx-auto rounded-full h-40 w-40 object-cover"
         height="400"
-        src="/next.svg"
+        src="/pfp.jpg"
         style={{
           aspectRatio: "400/400",
           objectFit: "cover",
         }}
         width="400"
       />
-      <h2 className="text-4xl font-bold mt-4">Hello, I'm Rookmate</h2>
+      <h2 className="text-4xl font-bold mt-4">gm, I'm Rookmate</h2>
       <p className="text-xl mt-2">
-        Insert awesome text about me
+        Digital Craftsman, Product Enthusiast, Solidity Developer, Artist
       </p>
     </section>
   );

@@ -6,12 +6,12 @@ export default function NavMenu() {
     <nav>
       <ul className="flex space-x-4">
         <li>
-          <a className="hover:underline" href="#">
+          <a className="hover:underline" href="/">
             About
           </a>
         </li>
         <li>
-          <a className="hover:underline" href="#">
+          <a className="hover:underline" href="#work">
             Work
           </a>
         </li>

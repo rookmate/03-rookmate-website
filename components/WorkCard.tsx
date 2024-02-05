@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface WorkCardProps {
   imageSrc: string;
   workName: string;

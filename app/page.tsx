@@ -1,5 +1,5 @@
-import Image from "next/image";
-import NavMenu from './NavMenu';
+import Image from 'next/image';
+import Header from '/components/Header';
 import About from '/components/About';
 import Footer from '/components/Footer';
 import WorkCard from '/components/WorkCard';
@@ -7,10 +7,7 @@ import WorkCard from '/components/WorkCard';
 export default function Home() {
   return (
     <div className="dark min-h-screen bg-gray-900 text-gray-200">
-      <header className="flex items-center justify-between px-8 py-4">
-        <h1 className="text-3xl font-bold">Rookmate</h1>
-        <NavMenu />
-      </header>
+      <Header />
       <main>
         <About />
         <section className="py-20 grid gap-10 px-8 md:grid-cols-2 lg:grid-cols-3" id="work">

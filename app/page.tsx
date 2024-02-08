@@ -11,7 +11,7 @@ export default function Home() {
         <About />
         <section className="py-20 grid gap-10 px-8 md:grid-cols-2 lg:grid-cols-3" id="work">
           <WorkCard
-            imageSrc="/telegrambot.png"
+            imageSrc="/telegrambot.jpg"
             workName="2024/01 - NFT alpha tracker"
             workDescription="Telegram bot that tracks major market moves on any Ethereum NFT sweep/dump on a collection above a specified ETH floor."
           />

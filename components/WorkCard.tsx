@@ -18,6 +18,8 @@ export default function WorkCard({ imageSrc, workName, workDescription, links }:
       <Image
         alt={workName}
         className="w-full h-auto object-contain"
+        width={800}
+        height={500}
         src={imageSrc}
         style={{
           maxHeight: "200px",

@@ -14,7 +14,7 @@ export default  function About() {
         }}
         width="400"
       />
-      <h2 className="text-4xl font-bold mt-4">gm, I'm Rookmate</h2>
+      <h2 className="text-4xl font-bold mt-4">gm, I&apos;m Rookmate</h2>
       <p className="text-xl mt-2">
         Digital Craftsman, Product Enthusiast, Solidity Developer, Artist
       </p>

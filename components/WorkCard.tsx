@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface Link {
   text: string;
   url: string;
@@ -13,7 +15,7 @@ interface WorkCardProps {
 export default function WorkCard({ imageSrc, workName, workDescription, links }: WorkCardProps) {
   return (
     <div className="card">
-      <img
+      <Image
         alt={workName}
         className="w-full h-auto object-contain"
         src={imageSrc}

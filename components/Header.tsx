@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import NavMenu from './NavMenu.tsx';
+import NavMenu from './NavMenu';
 
 export default function Header() {
   return (

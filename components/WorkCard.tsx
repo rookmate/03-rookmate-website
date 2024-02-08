@@ -26,7 +26,7 @@ export default function WorkCard({ imageSrc, workName, workDescription, links }:
         <p className="mt-2">{workDescription}</p>
         {links && links.length > 0 && (
           <div className="mt-4">
-            <h4 className="text-lg font-bold">Links:</h4>
+            <h5 className="text-lg font-bold">Related links:</h5>
             <ul className="list-disc ml-4">
               {links.map((link, index) => (
                 <li key={index}>
